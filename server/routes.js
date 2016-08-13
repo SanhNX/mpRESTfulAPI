@@ -15,8 +15,8 @@ function genToken() {
 }
 
 function expiresIn(numDays) {
-  var dateObj = new Date();
-  return dateObj.setDate(dateObj.getDate() + numDays);
+    var dateObj = new Date();
+    return dateObj.setDate(dateObj.getDate() + numDays);
 }
 
 module.exports = {
